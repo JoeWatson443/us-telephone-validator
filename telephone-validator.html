@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="US Telephone Validator">
+        <meta property="og:description" content="Check a phone number">
+        <meta property="og:image" content="https://i.imgur.com/enkvueJ.png">
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:title" content="US Telephone Validator">
+        <meta property="twitter:description" content="Check a phone number">
+        <meta property="twitter:image" content="https://i.imgur.com/enkvueJ.png">
+        <title>US Telephone Number Validator</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/43bc1f0798.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <main class="flex">
+            <div id="content" class="flex flex-col font">
+                <h1>US Telephone Validator</h1>
+                    <div id="input-structure" class="flex flex-col gap-8">
+                        <input type="tel" name="tel" id="user-input" placeholder="Enter telephone number" class="brd-rad">
+                    </div>
+                <div id="results-card" class="flex flex-col brd-12">
+                    <div id="results-list-container" class="brd-12">
+                        <div id="results-div"></div>
+                    </div>
+                    <div id="button-structure" class="flex">
+                        <button id="clear-btn" type="reset" class="brd-rad btn-style">Clear</button>
+                        <button id="check-btn" type="submit" class="brd-rad btn-style">Check</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
